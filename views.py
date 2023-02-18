@@ -10,6 +10,10 @@ from django.views.generic.edit import CreateView
 def home(request):
     return render(request,"users/home.html")
 
+def index(request):
+    return render(request,"users/index.html")
+    
+
 
 
 class SignUp(CreateView):
